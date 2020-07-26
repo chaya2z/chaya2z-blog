@@ -1,0 +1,27 @@
+.navBarContainer {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+.navItem {
+    width: 12rem;
+    height: 5rem;
+    text-align: center;
+    background-color: white;
+    border-left: 1px solid #CCCCCC;
+}
+.titleText {
+    margin-top: 1rem;
+    font-size: 18px;
+}
+.subTitleText {
+    margin-top: 2px;
+    font-size: 14px;
+    color: #2D2D2D;
+}
+.imgItem {
+    width: 12rem;
+    height: 5rem;
+    text-align: center;
+    background-color: white;
+}
