@@ -1,0 +1,19 @@
+html {
+    width: 100%;
+    background-color: #F5F5F5;
+}
+.titleSection {
+    background-image: url("../images/title-back-img.png");
+    text-align: center;
+    height: 36rem;
+    line-height: 36rem;
+}
+.websiteTitle {
+    color: white;
+    font-size: 64px;
+}
+.navBarSection {
+    position: relative;
+    top: -40px;
+}
+
