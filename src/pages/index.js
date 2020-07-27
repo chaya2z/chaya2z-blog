@@ -7,7 +7,7 @@ import "./index.css"
 export default function Home() {
   return (
     <div>
-      <div className="titleSection">
+      <div className="heroImgSection">
         <h1 className="websiteTitle">海底タランテラ</h1>
       </div>
       <div className="navBarSection">
