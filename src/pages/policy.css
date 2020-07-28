@@ -1,0 +1,8 @@
+.policyContainer {
+    max-width: 1000px;
+    margin: 4rem auto 2rem;
+    background-color: white;
+}
+.textContent {
+    padding: 2rem;
+}
