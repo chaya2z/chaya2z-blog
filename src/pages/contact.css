@@ -1,0 +1,7 @@
+.contactForm {
+    max-width: 800px;
+    margin: 4rem auto 2rem;
+}
+iframe[src^="https://docs.google.com/forms/d/e"]{
+    width:100%;
+}
