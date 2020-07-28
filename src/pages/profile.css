@@ -1,0 +1,19 @@
+.profileSection {
+    max-width: 1000px;
+    margin: 4rem auto 2rem;
+    background-color: white;
+}
+.profileImg {
+    width: 100%;
+}
+.profileIcon {
+    position: relative;
+    top: -56px;
+}
+.iconImg {
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 4px solid white;
+}
