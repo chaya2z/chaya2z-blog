@@ -35,9 +35,8 @@
     border-bottom: 3px solid #C4C4C4;
 }
 .articleIndex {
-    width: 50%;
+    max-width: 480px;
     margin-top: 2rem;
-    margin-right: 2rem;
     border: 3px solid #83D3D8;
 }
 .indexText {
