@@ -6,7 +6,7 @@ import "./contact.css"
 
 export default function Home() {
   return (
-    <div>
+    <div style={{backgroundColor: "#F5F5F5"}}>
       <NavBar/>
       <div className={"contactForm"}>
         <iframe

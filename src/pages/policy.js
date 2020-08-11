@@ -6,7 +6,7 @@ import "./policy.css"
 
 export default function Home() {
   return (
-    <div>
+    <div style={{backgroundColor: "#F5F5F5"}}>
       <div className="titleSection">
         <h1 className={'title'}>サイトポリシー</h1>
       </div>

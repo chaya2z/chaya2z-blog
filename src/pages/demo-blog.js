@@ -60,7 +60,7 @@ class ArticleIndex extends React.Component {
 
 export default function Home() {
   return (
-    <div>
+    <div style={{backgroundColor: "#F5F5F5"}}>
       <NavBar/>
       <div className="blogContainer">
         <ArticleEyeCatch/>

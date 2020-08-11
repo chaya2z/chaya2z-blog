@@ -35,7 +35,7 @@ class ArticleCard extends React.Component {
 
 export default function Home() {
   return (
-    <div>
+    <div style={{backgroundColor: "#F5F5F5"}}>
       <div className="titleSection">
         <h1 className={'title'}>技術記事一覧</h1>
       </div>
