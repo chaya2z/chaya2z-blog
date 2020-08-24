@@ -23,6 +23,12 @@
     column-gap: 16px;
     row-gap: 2em;
 }
+
+.contentsContainer a {
+    text-decoration: none;
+    color: #2D2D2D;
+}
+
 .tagTable {
     display: flex;
     max-width: 1152px;
@@ -50,6 +56,7 @@
     background-color: white;
     box-shadow: 0 0 8px gray;
 }
+
 .textArea {
     padding: 1rem 10px;
 }
