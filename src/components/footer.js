@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import "./footer.css"
 
 class IconsContents extends React.Component {
@@ -35,9 +36,9 @@ class SiteLinks extends React.Component {
   render() {
     return (
       <div className="LinksContent">
-        <div className="footerLink borderLineLeft">ホーム</div>
-        <div className="footerLink borderLineLeft borderLineRight">サイトポリシー</div>
-        <div className="footerLink borderLineRight">お問い合わせ</div>
+        <Link to={"/"} className="footerLink borderLineLeft">ホーム</Link>
+        <Link to={"/policy"} className="footerLink borderLineLeft borderLineRight">サイトポリシー</Link>
+        <Link to={"/contact"} className="footerLink borderLineRight">お問い合わせ</Link>
       </div>
     )
   }
