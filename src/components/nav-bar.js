@@ -1,13 +1,14 @@
 import React from "react"
+import { Link } from "gatsby"
 import "./nav-bar.css"
 
 class NavLinkItem extends React.Component {
   render() {
     return (
-      <div className="navItem">
+      <Link to={this.props.link} className="navItem">
         <p className="titleText">{this.props.title}</p>
         <p className="subTitleText">{this.props.subTitle}</p>
-      </div>
+      </Link>
     )
   }
 }
@@ -17,11 +18,10 @@ class NavBar extends React.Component {
     return (
       <nav className="navBarContainer">
         <div className="imgItem">img</div>
-        <NavLinkItem title="ホーム" subTitle="home"/>
-        <NavLinkItem title="技術" subTitle="technology"/>
-        <NavLinkItem title="雑記" subTitle="miscellaneous"/>
-        <NavLinkItem title="プロフィール" subTitle="profile"/>
-        <NavLinkItem title="お問い合わせ" subTitle="contact"/>
+        <NavLinkItem link={"/"} title="ホーム" subTitle="home"/>
+        <NavLinkItem link={"/posts"} title="ブログ" subTitle="blog"/>
+        <NavLinkItem link={"/profile"} title="プロフィール" subTitle="profile"/>
+        <NavLinkItem link={"/contact"} title="お問い合わせ" subTitle="contact"/>
       </nav>
     )
   }
