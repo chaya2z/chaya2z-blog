@@ -26,7 +26,7 @@ class ProfileIcon extends React.Component{
 
 export default function Home() {
   return (
-    <div style={{backgroundColor: "#F5F5F5"}}>
+    <div>
         <NavBar/>
       <div className="profileSection">
         <ProfileImg/>
