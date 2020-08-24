@@ -3,6 +3,12 @@
     width: 100%;
     justify-content: center;
 }
+
+.navBarContainer a {
+    text-decoration: none;
+    color: #2D2D2D;
+}
+
 .navItem {
     width: 12rem;
     height: 5rem;
