@@ -7,7 +7,12 @@ import "./contact.css"
 export default function Home() {
   return (
     <div>
-      <NavBar/>
+      <div className="titleSection">
+        <h1 className={"title"}>お問い合わせ</h1>
+      </div>
+      <div className="navBarSection">
+        <NavBar/>
+      </div>
       <div className={"contactForm"}>
         <iframe
           title="googleForm" src="https://docs.google.com/forms/d/e/1FAIpQLSdlcpfWL_hKSpToao2xzi6zSCsZtZ0_Njn0kCtXZ4vijbPlYw/viewform?embedded=true"

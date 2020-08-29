@@ -27,7 +27,12 @@ class ProfileIcon extends React.Component{
 export default function Home() {
   return (
     <div>
+      <div className="titleSection">
+        <h1 className={"title"}>プロフィール</h1>
+      </div>
+      <div className="navBarSection">
         <NavBar/>
+      </div>
       <div className="profileSection">
         <ProfileImg/>
         <ProfileIcon/>
