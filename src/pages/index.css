@@ -16,4 +16,59 @@ html {
     position: relative;
     top: -40px;
 }
-
+.indexContentsContainer {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    background-color: #FFFFFF;
+    padding: 24px
+}
+.indexContentsContainer h2 {
+    background-color: wheat;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.siteDescription {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+}
+.latestPostContainer {
+    margin-bottom: 2rem;
+}
+.latestPostContainer a {
+    color: #2D2D2D;
+    text-decoration: none;
+}
+.gridParent {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    margin-bottom: 1rem;
+    background-color: whitesmoke;
+}
+.thumbnailItem {
+    grid-column: 1 / 2;
+    padding: 10px;
+}
+.textItem {
+    grid-column: 2 / 3;
+    padding: 10px;
+}
+.textItem h3 {
+    font-size: 26px;
+    border-bottom: solid 1px gray;
+    margin-bottom: 10px;
+}
+.nextArticleText {
+    text-align: right;
+}
+.nextArticleText {
+    font-size: 14px;
+    text-decoration: underline;
+}
+.morePostsButton {
+    text-align: center;
+    padding: 8px;
+    background-color: khaki;
+}
