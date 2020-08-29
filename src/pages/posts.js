@@ -25,7 +25,7 @@ export default ({ data }) => {
   return (
     <div>
       <div className="titleSection">
-        <h1 className={"title"}>技術記事一覧</h1>
+        <h1 className={"title"}>ブログ</h1>
       </div>
       <div className="navBarSection">
         <NavBar/>
