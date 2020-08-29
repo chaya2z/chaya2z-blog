@@ -27,6 +27,7 @@ export default function BlogPost({ data }) {
           </div>
         </div>
       </article>
+      <Footer/>
     </div>
   )
 }
@@ -42,7 +43,7 @@ export const query = graphql`
                 title
                 image {
                     childImageSharp {
-                        fluid(maxHeight: 600, maxWidth: 1280) {
+                        fluid(maxHeight: 630, maxWidth: 1200) {
                             ...GatsbyImageSharpFluid
                         }
                     }
