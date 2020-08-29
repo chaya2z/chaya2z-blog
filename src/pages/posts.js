@@ -30,7 +30,6 @@ export default ({ data }) => {
       <div className="navBarSection">
         <NavBar/>
       </div>
-      <TagTable/>
       <div className="contentsContainer">
         { edges.map((edge) => (
           <div key={ edge.node.date } className="articleCardContents">
