@@ -77,7 +77,12 @@ html {
     text-decoration: underline;
 }
 .morePostsButton {
+    color: white;
     text-align: center;
     padding: 8px;
-    background-color: khaki;
+    background-color: royalblue;
+    transition: transform 0.2s ease 0s;
+}
+.morePostsButton:hover {
+    transform: translate(0, -10%);
 }
