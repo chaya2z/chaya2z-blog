@@ -66,7 +66,7 @@ export const query = graphql`
                         tags
                         image {
                             childImageSharp {
-                                fluid(maxHeight: 300, maxWidth: 800) {
+                                fluid(maxWidth: 600, maxHeight: 315) {
                                     ...GatsbyImageSharpFluid
                                 }
                             }
@@ -74,7 +74,9 @@ export const query = graphql`
                     }
                 }
             }
+            group(field: frontmatter___tags) {
+                fieldValue
+            }
         }
     }
 `
-
