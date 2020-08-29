@@ -23,7 +23,7 @@ class TagTable extends React.Component {
 export default ({ data }) => {
   const edges = data.allMarkdownRemark.edges
   return (
-    <div style={{ backgroundColor: "#F5F5F5" }}>
+    <div>
       <div className="titleSection">
         <h1 className={"title"}>技術記事一覧</h1>
       </div>
