@@ -4,21 +4,21 @@ import Footer from "../components/footer"
 import "./reset.css"
 import "./profile.css"
 
-class ProfileImg extends React.Component{
+class ProfileImg extends React.Component {
   render() {
     return (
-      <div className={'profileImg'}>
+      <div className={"profileImg"}>
         <img src={require("../images/profileBackImg.png")} alt={"profile header"}/>
       </div>
     )
   }
 }
 
-class ProfileIcon extends React.Component{
+class ProfileIcon extends React.Component {
   render() {
     return (
-      <div className={'profileIcon'}>
-        <img className={'iconImg'} src={require("../images/icon.jpg")} alt={"profile icon"}/>
+      <div className={"profileIcon"}>
+        <img className={"iconImg"} src={require("../images/icon.jpg")} alt={"profile icon"}/>
       </div>
     )
   }
