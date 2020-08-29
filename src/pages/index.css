@@ -25,14 +25,15 @@ html {
     padding: 24px
 }
 .indexContentsContainer h2 {
-    background-color: wheat;
+    text-align: center;
+    background-color: skyblue;
     padding: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 .siteDescription {
     padding-left: 1rem;
     padding-right: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 .latestPostContainer {
     margin-bottom: 2rem;
