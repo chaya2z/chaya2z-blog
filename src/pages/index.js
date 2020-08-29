@@ -26,7 +26,7 @@ export default ({ data }) => {
           {edges.map((edge) => (
             <div key={edge.node.date}>
               <Link to={edge.node.fields.slug}>
-                <div className={"gridParent"}>
+                <div className={"articleCardItem"}>
                   <div className={"thumbnailItem"}>
                     <Image
                       fluid={edge.node.frontmatter.image.childImageSharp.fluid}
