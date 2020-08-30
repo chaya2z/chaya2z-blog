@@ -17,7 +17,7 @@ class NavBar extends React.Component {
   render() {
     return (
       <nav className="navBarContainer">
-        <div className="imgItem">img</div>
+        {/*<div className="imgItem"></div>*/}
         <NavLinkItem link={"/"} title="ホーム" subTitle="home"/>
         <NavLinkItem link={"/posts"} title="ブログ" subTitle="blog"/>
         <NavLinkItem link={"/profile"} title="プロフィール" subTitle="profile"/>
