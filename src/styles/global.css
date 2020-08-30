@@ -1,3 +1,7 @@
 body {
-    background-color: #F5F5F5;
+    background-color   : paleturquoise;
+    background-image   : radial-gradient(#f5fffa 12%, transparent 25%),
+    radial-gradient(#f5fffa 12%, transparent 25%);
+    background-position: 0 0, 50px 50px;
+    background-size    : 100px 100px;
 }
