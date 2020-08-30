@@ -6,3 +6,13 @@
 .textContent {
     padding: 2rem;
 }
+.textContent h2 {
+    font-family: 'Sawarabi Gothic', sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.textContent p {
+    color: #2D2D2D;
+}
