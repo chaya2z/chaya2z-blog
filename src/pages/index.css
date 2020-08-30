@@ -41,14 +41,14 @@
     display: grid;
     grid-template-columns: 300px 1fr;
     margin-bottom: 1rem;
-    border: 2px solid deepskyblue;
-    border-radius: 1em 1em;
+    border: 1px solid #D3D3D3;
+    /*border-radius: 1em 1em;*/
     transition-property: background-color;
     transition-duration: 0.3s;
     transition-timing-function: ease;
 }
 .articleCardItem:hover {
-    background-color: lightcyan;
+    background-color: #ffead6;
 }
 .thumbnailItem {
     grid-column: 1 / 2;
