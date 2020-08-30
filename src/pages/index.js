@@ -42,9 +42,11 @@ export default ({ data }) => {
             </div>
           ))}
         </div>
-        <div className={"morePostsButton"}>
-          <p>その他の投稿を見る</p>
-        </div>
+        <Link to={"/posts"}>
+          <div className={"morePostsButton"}>
+            その他の投稿を見る
+          </div>
+        </Link>
       </div>
       <Footer/>
     </div>
