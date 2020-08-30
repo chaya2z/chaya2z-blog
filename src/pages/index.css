@@ -73,11 +73,12 @@
     text-decoration: underline;
 }
 .morePostsButton {
-    color: white;
     text-align: center;
     padding: 8px;
-    background-color: royalblue;
+    background-color: #6c3524;
     transition: transform 0.2s ease 0s;
+    color: #FFFFFF;
+    text-decoration: underline;
 }
 .morePostsButton:hover {
     transform: translate(0, -10%);
