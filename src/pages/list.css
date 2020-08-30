@@ -1,7 +1,3 @@
-.navBarSection {
-    position: relative;
-    top: -40px;
-}
 .titleSection {
     color: white;
     max-width: 1200px;
@@ -53,15 +49,11 @@
     margin-right: 4px;
 }
 .articleCardContents {
-    background-color: white;
     box-shadow: 0 0 8px gray;
 }
 
 .textArea {
     padding: 1rem 10px;
-}
-.thumbnail {
-    width: 100%;
 }
 .cardTitle {
     border-bottom: 1px solid #4D4D4D;
@@ -74,3 +66,30 @@
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.thumbnailImg {
+    transition: all 0.2s ease-in;
+}
+.articleCardContents:hover .thumbnailImg {
+    transform: scale(1.2);
+    opacity: 0.4;
+}
+.thumbnailBox {
+    position: relative;
+    overflow: hidden;
+}
+.cardDate {
+    position: absolute;
+    padding: 8px;
+    top: 0;
+    left: 0;
+    color: #FFFFFF;
+    opacity: 0;
+    transition: all 0.2s ease-in;
+}
+.articleCardContents:hover .cardDate {
+    opacity: 1;
+}
+.articleCardContents:hover .thumbnailBox {
+    background-color: #000;
+}
+

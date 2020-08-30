@@ -31,15 +31,18 @@ export default ({ data }) => {
         <NavBar/>
       </div>
       <div className="contentsContainer">
-        { edges.map((edge) => (
-          <div key={ edge.node.date } className="articleCardContents">
-            <Link to={ edge.node.fields.slug }>
-              <Image
-                fluid={ edge.node.frontmatter.image.childImageSharp.fluid }
-              />
+        {edges.map((edge) => (
+          <div key={edge.node.date} className="articleCardContents">
+            <Link to={edge.node.fields.slug}>
+              <div className={"thumbnailBox"}>
+                <Image className={"thumbnailImg"}
+                  fluid={edge.node.frontmatter.image.childImageSharp.fluid}
+                />
+                <p className={"cardDate"}>投稿日：{edge.node.frontmatter.date}</p>
+              </div>
               <div className="textArea">
-                <h2 className={"cardTitle"}>{ edge.node.frontmatter.title }</h2>
-                <p className={"cardText"}>{ edge.node.excerpt }</p>
+                <h2 className={"cardTitle"}>{edge.node.frontmatter.title}</h2>
+                <p className={"cardText"}>{edge.node.excerpt}</p>
               </div>
             </Link>
           </div>
@@ -61,7 +64,7 @@ export const query = graphql`
                     }
                     frontmatter {
                         title
-                        date(formatString: "MM/DD YYYY")
+                        date(formatString: "YYYY年MM月DD日")
                         tags
                         image {
                             childImageSharp {
