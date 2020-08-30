@@ -3,10 +3,12 @@ import NavBar from "../components/nav-bar"
 import Footer from "../components/footer"
 import "./reset.css"
 import "./contact.css"
+import Head from "../components/head"
 
 export default function Home() {
   return (
     <div>
+      <Head/>
       <div className="titleSection">
         <h1 className={"title"}>お問い合わせ</h1>
       </div>

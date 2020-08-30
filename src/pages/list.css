@@ -66,6 +66,7 @@
 .title {
     padding-top: 100px;
     padding-bottom: 100px;
+    font-family: 'M PLUS 1p', sans-serif;
 }
 .thumbnailImg {
     transition: all 0.2s ease-in;
