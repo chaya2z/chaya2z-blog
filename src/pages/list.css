@@ -18,6 +18,8 @@
     grid-auto-rows: minmax(200px, auto);
     column-gap: 16px;
     row-gap: 2em;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .contentsContainer a {
