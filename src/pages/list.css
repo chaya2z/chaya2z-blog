@@ -14,7 +14,7 @@
     margin-right: auto;
     margin-bottom: 2rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: minmax(200px, auto);
     column-gap: 16px;
     row-gap: 2em;
@@ -50,11 +50,11 @@
 }
 .articleCardContents {
     box-shadow: 0 0 8px gray;
+    background-color: #FFFFFF;
 }
 
 .textArea {
     padding: 1rem 10px;
-    background-color: #FFFFFF;
 }
 .cardTitle {
     border-bottom: 1px solid #4D4D4D;
