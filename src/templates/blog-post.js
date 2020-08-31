@@ -22,7 +22,7 @@ export default function BlogPost({ data }) {
           <div>
             <h1 className={"articleTitle"}>{post.frontmatter.title}</h1>
             <section>
-              <div dangerouslySetInnerHTML={{ __html: post.html }}/>
+              <div dangerouslySetInnerHTML={{ __html: post.html }} className={"blogText"}/>
             </section>
           </div>
         </div>
@@ -36,6 +36,7 @@ export const query = graphql`
     query($slug: String!) {
         markdownRemark(fields: { slug: { eq: $slug } }) {
             html
+            rawMarkdownBody
             frontmatter {
                 date(formatString: "YYYY年MM月DD日")
                 slug
