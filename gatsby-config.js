@@ -34,15 +34,15 @@ module.exports = {
         // The property ID; the tracking code won't be generated without it
         trackingId: "UA-154213444-1",
         // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: false,
+        head: false
       }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,
-        path: `${__dirname}/content/posts/`,
-      },
+        path: `${__dirname}/content/posts/`
+      }
     },
     {
       resolve: `gatsby-transformer-remark`,
@@ -58,15 +58,32 @@ module.exports = {
         // Plugins configs
         plugins: [
           {
-            resolve: 'gatsby-remark-images',
+            resolve: "gatsby-remark-images",
             options: {
               maxWidth: 1000,
               quality: 90,
-              linkImagesToOriginal: true,
+              linkImagesToOriginal: true
+            }
+          },
+          {
+            resolve: `gatsby-remark-katex`,
+            options: {
+              // Add any KaTeX options from https://github.com/KaTeX/KaTeX/blob/master/docs/options.md here
+              strict: `ignore`
+            }
+          },
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              classPrefix: "language-",
+              inlineCodeMarker: null,
+              aliases: {},
+              showLineNumbers: true,
+              noInlineHighlight: false
             }
           }
-        ],
-      },
+        ]
+      }
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
