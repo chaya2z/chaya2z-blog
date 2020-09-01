@@ -98,3 +98,13 @@
     color: #333333;
     margin-bottom: 1rem;
 }
+.blogText > h3 {
+    margin-top: 2rem;
+    margin-bottom: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 28px;
+    color: #401414;
+    border-left: 4px solid #4D4D4D;
+    padding-left: 28px;
+}
