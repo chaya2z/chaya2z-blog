@@ -1,6 +1,6 @@
 ---
 title: 秋葉原で集める電子部品
-slug: /blog/test6
+slug: /blog/z80-akiba
 date: 2019-12-23
 tags: ["日記"]
 image: ./eyecatch.png
