@@ -27,7 +27,7 @@ export default ({ data }) => {
           <h2>最近の投稿</h2>
           {edges.map((edge) => (
             <div key={edge.node.date}>
-              <Link to={edge.node.fields.slug}>
+              <Link to={edge.node.frontmatter.slug}>
                 <div className={"articleCardItem"}>
                   <div className={"thumbnailItem"}>
                     <Image
@@ -61,9 +61,6 @@ export const LatestPageQuery = graphql`
             edges {
                 node {
                     excerpt(format: PLAIN, pruneLength: 100, truncate: true)
-                    fields {
-                        slug
-                    }
                     frontmatter {
                         title
                         date(formatString: "MM/DD YYYY")

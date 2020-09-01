@@ -35,7 +35,7 @@ export default ({ data }) => {
       <div className="contentsContainer">
         {edges.map((edge) => (
           <div key={edge.node.date} className="articleCardContents">
-            <Link to={edge.node.fields.slug}>
+            <Link to={edge.node.frontmatter.slug}>
               <div className={"thumbnailBox"}>
                 <Image className={"thumbnailImg"}
                   fluid={edge.node.frontmatter.image.childImageSharp.fluid}
@@ -61,11 +61,9 @@ export const query = graphql`
             edges {
                 node {
                     excerpt(format: PLAIN, pruneLength: 80, truncate: true)
-                    fields {
-                        slug
-                    }
                     frontmatter {
                         title
+                        slug
                         date(formatString: "YYYY年MM月DD日")
                         tags
                         image {
