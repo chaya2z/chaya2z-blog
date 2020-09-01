@@ -63,6 +63,7 @@ export const LatestPageQuery = graphql`
                     excerpt(format: PLAIN, pruneLength: 100, truncate: true)
                     frontmatter {
                         title
+                        slug
                         date(formatString: "MM/DD YYYY")
                         tags
                         image {
