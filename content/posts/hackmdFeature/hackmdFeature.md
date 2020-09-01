@@ -92,4 +92,10 @@ print("Hello World")
 
 基本的なMarkdownだけでもきれいなノートが作成できますが，これらの機能でさらに見やすいノートが取れるでしょう．
 
+他にもいろいろあるので，知りたい方は [このページ](https://hackmd.io/s/features-jp) を参考にしてみてください．
+
 HackMDを使って，いろいろな機能で遊んでみてください．
+
+## 参考
+
+- https://hackmd.io/s/features-jp
