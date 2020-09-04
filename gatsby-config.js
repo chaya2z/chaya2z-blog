@@ -88,7 +88,8 @@ module.exports = {
               showLineNumbers: true,
               noInlineHighlight: false
             }
-          }
+          },
+          `gatsby-remark-copy-linked-files`
         ]
       }
     },
