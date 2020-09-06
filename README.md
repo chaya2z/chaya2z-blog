@@ -1,7 +1,9 @@
 # chaya2z-blog README
 
 [![issues](https://img.shields.io/github/issues/chaya2z/chaya2z-blog)](https://github.com/chaya2z/chaya2z-blog/issues)
+[![pull request](https://img.shields.io/github/issues-pr/chaya2z/chaya2z-blog)](https://github.com/chaya2z/chaya2z-blog/pulls)
 [![License](https://img.shields.io/github/license/chaya2z/chaya2z-blog)](https://github.com/chaya2z/chaya2z-blog/blob/master/LICENSE)
+
 
 [日本語](#このリポジトリについて)
 
@@ -15,13 +17,15 @@ Usage framework is React, static-site-generator is Gatsby.
 
 ## Environment
 
-- Node.js 12.16.0
-- React 16.13.1
-- Gatsby 2.24.39
+[![React](https://img.shields.io/badge/React-16.13.1-blue)](React)
+
+[![Node.js](https://img.shields.io/badge/Node.js-12.16.0-yellowgreen)](Nodejs)
+
+[![Gatsby](https://img.shields.io/badge/Gatsby-2.24.39-blueviolet)](Gatsby)
 
 ### Deploy
 
-- Netlify
+[![Netlify](https://img.shields.io/badge/Hosting-Netlify-blue)](Netlify)
 
 ## Future plans
 
@@ -48,13 +52,15 @@ This software is licensed under the MIT License.
 
 ## 環境
 
-- Node.js 12.16.0
-- React 16.13.1
-- Gatsby 2.24.39
+[![React](https://img.shields.io/badge/React-16.13.1-blue)](React)
+
+[![Node.js](https://img.shields.io/badge/Node.js-12.16.0-yellowgreen)](Nodejs)
+
+[![Gatsby](https://img.shields.io/badge/Gatsby-2.24.39-blueviolet)](Gatsby)
 
 ### デプロイ
 
-- Netlify
+[![Netlify](https://img.shields.io/badge/Hosting-Netlify-blue)](Netlify)
 
 ## 今後の計画
 
