@@ -2,7 +2,7 @@
 
 [![issues](https://img.shields.io/github/issues/chaya2z/chaya2z-blog)](https://github.com/chaya2z/chaya2z-blog/issues)
 [![pull request](https://img.shields.io/github/issues-pr/chaya2z/chaya2z-blog)](https://github.com/chaya2z/chaya2z-blog/pulls)
-[![License](https://img.shields.io/github/license/chaya2z/chaya2z-blog)](https://github.com/chaya2z/chaya2z-blog/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/chaya2z/chaya2z-blog)](LICENSE)
 
 
 [日本語](#このリポジトリについて)
@@ -17,15 +17,15 @@ Usage framework is React, static-site-generator is Gatsby.
 
 ## Environment
 
-[![React](https://img.shields.io/badge/React-v16.13.1-blue)](React)
+[![React](https://img.shields.io/badge/React-v16.13.1-blue)](https://reactjs.org/)
 
-[![Node.js](https://img.shields.io/badge/Node.js-v12.16.0-yellowgreen)](Nodejs)
+[![Node.js](https://img.shields.io/badge/Node.js-v12.16.0-yellowgreen)](https://nodejs.org/en/)
 
-[![Gatsby](https://img.shields.io/badge/Gatsby-v2.24.39-blueviolet)](Gatsby)
+[![Gatsby](https://img.shields.io/badge/Gatsby-v2.24.39-blueviolet)](https://www.gatsbyjs.com/)
 
 ### Deploy
 
-[![Netlify](https://img.shields.io/badge/Hosting-Netlify-blue)](Netlify)
+[![Netlify](https://img.shields.io/badge/Hosting-Netlify-blue)](https://www.netlify.com/)
 
 ## Future plans
 
@@ -52,15 +52,15 @@ This software is licensed under the MIT License.
 
 ## 環境
 
-[![React](https://img.shields.io/badge/React-v16.13.1-blue)](React)
+[![React](https://img.shields.io/badge/React-v16.13.1-blue)](https://reactjs.org/)
 
-[![Node.js](https://img.shields.io/badge/Node.js-v12.16.0-yellowgreen)](Nodejs)
+[![Node.js](https://img.shields.io/badge/Node.js-v12.16.0-yellowgreen)](https://nodejs.org/en/)
 
-[![Gatsby](https://img.shields.io/badge/Gatsby-v2.24.39-blueviolet)](Gatsby)
+[![Gatsby](https://img.shields.io/badge/Gatsby-v2.24.39-blueviolet)](https://www.gatsbyjs.com/)
 
 ### デプロイ
 
-[![Netlify](https://img.shields.io/badge/Hosting-Netlify-blue)](Netlify)
+[![Netlify](https://img.shields.io/badge/Hosting-Netlify-blue)](https://www.netlify.com/)
 
 ## 今後の計画
 
