@@ -1,9 +1,7 @@
 # chaya2z-blog README
 
-https://img.shields.io/github/issues/chaya2z/chaya2z-blog
-https://img.shields.io/github/forks/chaya2z/chaya2z-blog
-https://img.shields.io/github/stars/chaya2z/chaya2z-blog
-[![License](https://img.shields.io/github/license/chaya2z/chaya2z-blog)](https://img.shields.io/github/license/chaya2z/chaya2z-blog)
+[![issues](https://img.shields.io/github/issues/chaya2z/chaya2z-blog)](https://github.com/chaya2z/chaya2z-blog/issues)
+[![License](https://img.shields.io/github/license/chaya2z/chaya2z-blog)](https://github.com/chaya2z/chaya2z-blog/blob/master/LICENSE)
 
 [日本語](#このリポジトリについて)
 
