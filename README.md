@@ -3,7 +3,7 @@
 https://img.shields.io/github/issues/chaya2z/chaya2z-blog
 https://img.shields.io/github/forks/chaya2z/chaya2z-blog
 https://img.shields.io/github/stars/chaya2z/chaya2z-blog
-https://img.shields.io/github/license/chaya2z/chaya2z-blog
+[![License](https://img.shields.io/github/license/chaya2z/chaya2z-blog)](https://img.shields.io/github/license/chaya2z/chaya2z-blog)
 
 [日本語](#このリポジトリについて)
 
