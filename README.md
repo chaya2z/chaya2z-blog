@@ -17,11 +17,11 @@ Usage framework is React, static-site-generator is Gatsby.
 
 ## Environment
 
-[![React](https://img.shields.io/badge/React-16.13.1-blue)](React)
+[![React](https://img.shields.io/badge/React-v16.13.1-blue)](React)
 
-[![Node.js](https://img.shields.io/badge/Node.js-12.16.0-yellowgreen)](Nodejs)
+[![Node.js](https://img.shields.io/badge/Node.js-v12.16.0-yellowgreen)](Nodejs)
 
-[![Gatsby](https://img.shields.io/badge/Gatsby-2.24.39-blueviolet)](Gatsby)
+[![Gatsby](https://img.shields.io/badge/Gatsby-v2.24.39-blueviolet)](Gatsby)
 
 ### Deploy
 
@@ -52,11 +52,11 @@ This software is licensed under the MIT License.
 
 ## 環境
 
-[![React](https://img.shields.io/badge/React-16.13.1-blue)](React)
+[![React](https://img.shields.io/badge/React-v16.13.1-blue)](React)
 
-[![Node.js](https://img.shields.io/badge/Node.js-12.16.0-yellowgreen)](Nodejs)
+[![Node.js](https://img.shields.io/badge/Node.js-v12.16.0-yellowgreen)](Nodejs)
 
-[![Gatsby](https://img.shields.io/badge/Gatsby-2.24.39-blueviolet)](Gatsby)
+[![Gatsby](https://img.shields.io/badge/Gatsby-v2.24.39-blueviolet)](Gatsby)
 
 ### デプロイ
 
