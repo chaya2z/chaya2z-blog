@@ -11,7 +11,7 @@
 
 This repo is source code of [my blog](https://chayanika.netlify.app/).
 
-![homepage screenshot](/static/HomepageScreenshot.png)
+[![homepage screenshot](/static/HomepageScreenshot.png)](https://chayanika.netlify.app/)
 
 Usage framework is React, static-site-generator is Gatsby.
 
@@ -46,7 +46,7 @@ This software is licensed under the MIT License.
 
 このリポジトリは，私がNetlifyを利用し公開している [ブログ](https://chayanika.netlify.app/) のソースコードです．
 
-![homepage screenshot](/static/HomepageScreenshot.png)
+[![homepage screenshot](/static/HomepageScreenshot.png)](https://chayanika.netlify.app/)
 
 フレームワークにReact，静的サイトジェネレータにGatsbyを使用しました．
 
