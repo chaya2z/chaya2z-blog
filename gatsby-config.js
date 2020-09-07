@@ -8,13 +8,13 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     // Used for the site title and SEO
-    title: `My Blog Title`,
+    title: `Kaitei Tarantella`,
     // Used to provide alt text for your avatar
-    author: `My Name`,
+    author: `chaya2z`,
     // Used for SEO
-    description: `My site description...`,
+    description: `tech and daily blog`,
     // Used for resolving images in social cards
-    siteUrl: `https://example.com`,
+    siteUrl: `https://chayanika.netlify.app/`,
     // Used for social links in the root footer
     social: [
       {
