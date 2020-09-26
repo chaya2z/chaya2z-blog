@@ -24,7 +24,7 @@ image: ./eyecatch.png
 
 このプラグインは自分でデザインを作りたい人には向きません（多分）．
 
-実際大きく書き換えることになるならフォークして作ったほうがはやいみたいなので，自分でいろいろ弄りたい使わないでやったほうがいいと思います．
+実際大きく書き換えることになるならフォークして作ったほうがはやいみたいなので，自分でいろいろ弄りたいなら使わないでやったほうがいいと思います．
 
 > If you find yourself shadowing a large number of components in a particular theme, it might make sense to fork and modify the theme instead.
 >
