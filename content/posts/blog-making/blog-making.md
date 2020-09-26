@@ -18,11 +18,17 @@ image: ./eyecatch.png
 
 ### The Gatsby Blog theme
 
-最初は「The Gatsby Blog theme」というブログ用のプラグインを使おうとしていました．しかし，自分で作ったデザインを使うのがこのプラグインを使ってでは難しかったです．
+最初は「The Gatsby Blog theme」というブログ用のプラグインを使おうとしていました．しかし，このプラグインを使いながら自分で作ったデザインを使うのは難しかったです．
 
 結局，このプラグインは使わず，このプラグインの行っていた `.md` ファイルを記事として認識するといったプログラムは自分で実装しました．
 
 このプラグインは自分でデザインを作りたい人には向きません（多分）．
+
+実際大きく書き換えることになるならフォークして作ったほうがはやいみたいなので，自分でいろいろ弄りたい使わないでやったほうがいいと思います．
+
+> If you find yourself shadowing a large number of components in a particular theme, it might make sense to fork and modify the theme instead.
+>
+> https://www.gatsbyjs.com/docs/themes/shadowing/
 
 ### 記事カードを並べる
 
