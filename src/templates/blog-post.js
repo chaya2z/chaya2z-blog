@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import Image from "gatsby-image"
 import NavBar from "../components/nav-bar"
 import Footer from "../components/footer"
+import "../pages/demo-blog.css"
 
 export default function BlogPost({ data }) {
   const post = data.markdownRemark
