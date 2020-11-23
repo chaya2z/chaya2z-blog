@@ -22,7 +22,6 @@
 .navItem:hover {
     background-color: #58B4AE;
     color: white;
-    transform: scale(1.1);
 }
 .titleText {
     margin-top: 1rem;
