@@ -4,7 +4,7 @@ import Image from "gatsby-image"
 import NavBar from "../components/nav-bar"
 import Footer from "../components/footer"
 import "./list.css"
-import Head from "../components/head"
+import CustomHead from "../components/head"
 
 class TagTable extends React.Component {
   render() {
@@ -25,7 +25,7 @@ export default ({ data }) => {
   const edges = data.allMarkdownRemark.edges
   return (
     <div>
-      <Head/>
+      <CustomHead/>
       <div className="titleSection">
         <h1 className={"title"}>ブログ</h1>
       </div>

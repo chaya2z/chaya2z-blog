@@ -3,12 +3,12 @@ import NavBar from "../components/nav-bar"
 import Footer from "../components/footer"
 import "./reset.css"
 import "./policy.css"
-import Head from "../components/head"
+import CustomHead from "../components/head"
 
 export default function Home() {
   return (
     <div>
-      <Head/>
+      <CustomHead/>
       <div className="titleSection">
         <h1 className={'title'}>サイトポリシー</h1>
       </div>

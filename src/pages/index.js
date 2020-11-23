@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
-import Head from "../components/head"
+import CustomHead from "../components/head"
 import NavBar from "../components/nav-bar"
 import Footer from "../components/footer"
 import "./reset.css"
@@ -11,7 +11,7 @@ export default ({ data }) => {
   const edges = data.allMarkdownRemark.edges
   return (
     <div>
-      <Head/>
+      <CustomHead/>
       <div className="heroImgSection">
         <h1 className="websiteTitle">海底タランテラ</h1>
       </div>
