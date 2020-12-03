@@ -1,7 +1,11 @@
+/*body {*/
+/*    background-color   : paleturquoise;*/
+/*    background-image   : radial-gradient(#FFF 10%, transparent 20%),*/
+/*    radial-gradient(#FFF 10%, transparent 20%);*/
+/*    background-position: 0 0, 60px 60px;*/
+/*    background-size    : 120px 120px;*/
+/*}*/
+
 body {
-    background-color   : paleturquoise;
-    background-image   : radial-gradient(#FFF 10%, transparent 20%),
-    radial-gradient(#FFF 10%, transparent 20%);
-    background-position: 0 0, 60px 60px;
-    background-size    : 120px 120px;
+    background-color: #F5F5F5;
 }
