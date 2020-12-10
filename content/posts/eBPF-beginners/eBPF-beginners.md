@@ -8,7 +8,9 @@ image: ./eyecatch.png
 
 この記事は[ITRC Advent Calendar 2020](https://adventar.org/calendars/5535) の3日目の記事です．
 
-前の記事は[@site0801](https://twitter.com/site0801)の[nested対応してるクラウド事業者リスト](https://www.notion.so/nested-73404cdaa2864d95895969c25b5eaf3e)です．
+前の記事は[@site0801](https://twitter.com/site0801) の [nested対応してるクラウド事業者リスト](https://www.notion.so/nested-73404cdaa2864d95895969c25b5eaf3e) です．
+
+次の記事は[@bluekey0725](https://twitter.com/bluekey0725) の [TUNモジュールによるDockerのロードエラーとlinuxカーネル](https://qiita.com/blue_key/items/82facd82e9383c711534) です．
 
 ## はじめに
 
