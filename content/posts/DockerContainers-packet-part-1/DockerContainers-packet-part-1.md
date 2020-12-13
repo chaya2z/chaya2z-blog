@@ -138,7 +138,7 @@ rtt min/avg/max/mdev = 0.015/0.042/0.054/0.013 ms
 
 ## 3. パケットキャプチャ
 
-Wiresharkを開き，インターフェースに `docker0` を選択してパケットキャプチャを行う．
+Wiresharkを開き，インターフェースに `docker0` を選択してパケットキャプチャを行います．
 
 ![パケットキャプチャSS](../../assets/DockerContainers-packet-part-1/docker0packet.png)
 
