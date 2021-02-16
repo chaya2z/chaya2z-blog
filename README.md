@@ -4,7 +4,6 @@
 [![pull request](https://img.shields.io/github/issues-pr/chaya2z/chaya2z-blog)](https://github.com/chaya2z/chaya2z-blog/pulls)
 [![License](https://img.shields.io/github/license/chaya2z/chaya2z-blog)](LICENSE)
 
-
 [日本語](#このリポジトリについて)
 
 ## What is this repo ?
@@ -44,11 +43,11 @@ This software is licensed under the MIT License.
 
 ## このリポジトリについて
 
-このリポジトリは，私がNetlifyを利用し公開している [ブログ](https://chayanika.netlify.app/) のソースコードです．
+このリポジトリは，私が Netlify を利用し公開している [ブログ](https://chayanika.netlify.app/) のソースコードです．
 
 [![homepage screenshot](/static/HomepageScreenshot.png)](https://chayanika.netlify.app/)
 
-フレームワークにReact，静的サイトジェネレータにGatsbyを使用しました．
+フレームワークに React，静的サイトジェネレータに Gatsby を使用しました．
 
 ## 環境
 
@@ -73,5 +72,4 @@ This software is licensed under the MIT License.
 
 ## ライセンス
 
-このリポジトリのコードは，MITライセンスの元公開されています．
-
+このリポジトリのコードは，MIT ライセンスの元公開されています．
