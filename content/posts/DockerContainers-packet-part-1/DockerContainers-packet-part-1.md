@@ -6,13 +6,13 @@ tags: ["コンテナ"]
 image: ./eyecatch.png
 ---
 
-Dockerコンテナ間のパケットの流れが知りたかったので実験をしてみました．
+Docker コンテナ間のパケットの流れが知りたかったので実験をしてみました．
 
-Part-1(この記事)でパケットキャプチャを，後半のPart-2では実験後調べてわかったことをまとめています．
+Part-1(この記事)でパケットキャプチャを，後半の Part-2 では実験後調べてわかったことをまとめています．
 
 ## 実験
 
-Dockerコンテナを２つ作り，その間を通るパケットをキャプチャします．
+Docker コンテナを２つ作り，その間を通るパケットをキャプチャします．
 
 ![ネットワーク略図](../../assets/DockerContainers-packet-part-1/containers.png)
 
@@ -21,10 +21,10 @@ Dockerコンテナを２つ作り，その間を通るパケットをキャプ�
 - GNU/Linux Ubuntu20:04
 - Docker version 20.10.0 build 7287ab3
 
-## 1. Dockerコンテナを２つ作成する
+## 1. Docker コンテナを２つ作成する
 
-1. nginxのコンテナ
-2. ubuntu20.04のコンテナ
+1. nginx のコンテナ
+2. ubuntu20.04 のコンテナ
 
 ### イメージの取得
 
@@ -66,9 +66,9 @@ d548a1da6a21   ubuntu:focal                "/bin/bash"              10 minutes a
 
 ## 2. コンテナ間で疎通
 
-### pingを飛ばせるようにする
+### ping を飛ばせるようにする
 
-Ubuntuのコンテナに必要なパッケージのインストールを行います．
+Ubuntu のコンテナに必要なパッケージのインストールを行います．
 
 `ping` コマンドを使いたいので `iputils-ping` パッケージをインストールします．
 
@@ -96,9 +96,9 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 rtt min/avg/max/mdev = 3.923/4.150/4.538/0.210 ms
 ```
 
-### コンテナのipアドレスを確認する
+### コンテナの ip アドレスを確認する
 
-IPアドレスは `hostname` コマンドでわかります．
+IP アドレスは `hostname` コマンドでわかります．
 
 ```bash=
 docker exec nginx hostname -i
@@ -108,16 +108,16 @@ docker exec nginx hostname -i
 172.17.0.2
 ```
 
-２つのコンテナのIPアドレスは表の通り．
+２つのコンテナの IP アドレスは表の通り．
 
-| コンテナ | IPアドレス |
-| --- | --- |
-| ubuntu | 172.17.0.2 |
-| nginx | 172.17.0.3 |
+| コンテナ | IP アドレス |
+| -------- | ----------- |
+| ubuntu   | 172.17.0.2  |
+| nginx    | 172.17.0.3  |
 
 ### 疎通確認
 
-Ubuntuコンテナ側から `ping` を飛ばしてみます．
+Ubuntu コンテナ側から `ping` を飛ばしてみます．
 
 ```bash=
 docker exec -it ubuntu ping 172.17.0.3
@@ -138,13 +138,13 @@ rtt min/avg/max/mdev = 0.015/0.042/0.054/0.013 ms
 
 ## 3. パケットキャプチャ
 
-Wiresharkを開き，インターフェースに `docker0` を選択してパケットキャプチャを行います．
+Wireshark を開き，インターフェースに `docker0` を選択してパケットキャプチャを行います．
 
 ![パケットキャプチャSS](../../assets/DockerContainers-packet-part-1/docker0packet.png)
 
 ## 4. わかったこと
 
-Wiresharkのスクリーンショットの右下にパケットの構造が表示されています．Ethernetの中にIPv4があり，そのデータ部分にICMPがあります．
+Wireshark のスクリーンショットの右下にパケットの構造が表示されています．Ethernet の中に IPv4 があり，そのデータ部分に ICMP があります．
 
 ![パケットキャプチャSS拡大](../../assets/DockerContainers-packet-part-1/docker0packet-zoom.png)
 
@@ -152,6 +152,6 @@ Wiresharkのスクリーンショットの右下にパケットの構造が表�
 
 ---
 
-Part-2に続きます．
+Part-2 に続きます．
 
 次：Part-2(今月中に投稿する予定)
