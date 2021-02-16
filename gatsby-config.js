@@ -19,13 +19,13 @@ module.exports = {
     social: [
       {
         name: `Twitter`,
-        url: `https://twitter.com/chaya2z`
+        url: `https://twitter.com/chaya2z`,
       },
       {
         name: `GitHub`,
-        url: `https://github.com/gatsbyjs`
-      }
-    ]
+        url: `https://github.com/gatsbyjs`,
+      },
+    ],
   },
   plugins: [
     {
@@ -34,22 +34,22 @@ module.exports = {
         // The property ID; the tracking code won't be generated without it
         trackingId: "UA-154213444-1",
         // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: false
-      }
+        head: false,
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,
-        path: `${__dirname}/content/posts/`
-      }
+        path: `${__dirname}/content/posts/`,
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/content/assets/`
-      }
+        path: `${__dirname}/content/assets/`,
+      },
     },
     {
       resolve: `gatsby-transformer-remark`,
@@ -69,15 +69,15 @@ module.exports = {
             options: {
               maxWidth: 1000,
               quality: 90,
-              linkImagesToOriginal: true
-            }
+              linkImagesToOriginal: true,
+            },
           },
           {
             resolve: `gatsby-remark-katex`,
             options: {
               // Add any KaTeX options from https://github.com/KaTeX/KaTeX/blob/master/docs/options.md here
-              strict: `ignore`
-            }
+              strict: `ignore`,
+            },
           },
           {
             resolve: `gatsby-remark-prismjs`,
@@ -86,15 +86,16 @@ module.exports = {
               inlineCodeMarker: null,
               aliases: {},
               showLineNumbers: true,
-              noInlineHighlight: false
-            }
+              noInlineHighlight: false,
+            },
           },
-          `gatsby-remark-copy-linked-files`
-        ]
-      }
+          `gatsby-remark-copy-linked-files`,
+        ],
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-react-helmet`
-  ]
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-typegen`,
+  ],
 }

@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import Image from "gatsby-image"
-import NavBar from "../components/nav-bar"
+import NavBar from "../components/header/nav-bar"
 import Footer from "../components/footer"
 import "./list.css"
 import CustomHead from "../components/head"
@@ -25,22 +25,25 @@ export default ({ data }) => {
   const edges = data.allMarkdownRemark.edges
   return (
     <div>
-      <CustomHead/>
+      <CustomHead />
       <div className="titleSection">
         <h1 className={"title"}>ブログ</h1>
       </div>
       <div className="navBarSection">
-        <NavBar/>
+        <NavBar />
       </div>
       <div className="contentsContainer">
-        {edges.map((edge) => (
+        {edges.map(edge => (
           <div key={edge.node.date} className="articleCardContents">
             <Link to={edge.node.frontmatter.slug}>
               <div className={"thumbnailBox"}>
-                <Image className={"thumbnailImg"}
+                <Image
+                  className={"thumbnailImg"}
                   fluid={edge.node.frontmatter.image.childImageSharp.fluid}
                 />
-                <p className={"cardDate"}>投稿日：{edge.node.frontmatter.date}</p>
+                <p className={"cardDate"}>
+                  投稿日：{edge.node.frontmatter.date}
+                </p>
               </div>
               <div className="textArea">
                 <h2 className={"cardTitle"}>{edge.node.frontmatter.title}</h2>
@@ -50,35 +53,35 @@ export default ({ data }) => {
           </div>
         ))}
       </div>
-      <Footer/>
+      <Footer />
     </div>
   )
 }
 
 export const query = graphql`
-    query {
-        allMarkdownRemark(sort: {order: DESC, fields: frontmatter___date}) {
-            edges {
-                node {
-                    excerpt(format: PLAIN, pruneLength: 80, truncate: true)
-                    frontmatter {
-                        title
-                        slug
-                        date(formatString: "YYYY年MM月DD日")
-                        tags
-                        image {
-                            childImageSharp {
-                                fluid(maxWidth: 600, maxHeight: 315) {
-                                    ...GatsbyImageSharpFluid
-                                }
-                            }
-                        }
-                    }
+  query {
+    allMarkdownRemark(sort: { order: DESC, fields: frontmatter___date }) {
+      edges {
+        node {
+          excerpt(format: PLAIN, pruneLength: 80, truncate: true)
+          frontmatter {
+            title
+            slug
+            date(formatString: "YYYY年MM月DD日")
+            tags
+            image {
+              childImageSharp {
+                fluid(maxWidth: 600, maxHeight: 315) {
+                  ...GatsbyImageSharpFluid
                 }
+              }
             }
-            group(field: frontmatter___tags) {
-                fieldValue
-            }
+          }
         }
+      }
+      group(field: frontmatter___tags) {
+        fieldValue
+      }
     }
+  }
 `

@@ -1,5 +1,5 @@
 import React from "react"
-import NavBar from "../components/nav-bar"
+import NavBar from "../components/header/nav-bar"
 import Footer from "../components/footer"
 import "./reset.css"
 import "./profile.css"
@@ -9,7 +9,10 @@ class ProfileImg extends React.Component {
   render() {
     return (
       <div className={"profileImg"}>
-        <img src={require("../images/profileBackImg.png")} alt={"profile header"}/>
+        <img
+          src={require("../images/profileBackImg.png")}
+          alt={"profile header"}
+        />
       </div>
     )
   }
@@ -19,7 +22,11 @@ class ProfileIcon extends React.Component {
   render() {
     return (
       <div className={"profileIcon"}>
-        <img className={"iconImg"} src={require("../images/icon.jpg")} alt={"profile icon"}/>
+        <img
+          className={"iconImg"}
+          src={require("../images/icon.jpg")}
+          alt={"profile icon"}
+        />
       </div>
     )
   }
@@ -28,22 +35,23 @@ class ProfileIcon extends React.Component {
 export default function Home() {
   return (
     <div>
-      <CustomHead/>
+      <CustomHead />
       <div className="titleSection">
         <h1 className={"title"}>プロフィール</h1>
       </div>
       <div className="navBarSection">
-        <NavBar/>
+        <NavBar />
       </div>
       <div className="profileSection">
-        <ProfileImg/>
-        <ProfileIcon/>
+        <ProfileImg />
+        <ProfileIcon />
         <div className={"textContents"}>
-          <p>名前：茶屋辻</p><br/>
+          <p>名前：茶屋辻</p>
+          <br />
           <p>クラウド・コンテナ・仮想マシン関係の仕事がしたいです．</p>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   )
 }
