@@ -18,10 +18,18 @@ class NavBar extends React.Component {
     return (
       <nav className="navBarContainer">
         {/*<div className="imgItem"></div>*/}
-        <NavLinkItem link={"/"} title="ホーム" subTitle="home"/>
-        <NavLinkItem link={"/posts"} title="ブログ" subTitle="blog"/>
-        <NavLinkItem link={"/profile"} title="プロフィール" subTitle="profile"/>
-        <NavLinkItem link={"/contact"} title="お問い合わせ" subTitle="contact"/>
+        <NavLinkItem link={"/"} title="ホーム" subTitle="home" />
+        <NavLinkItem link={"/posts"} title="ブログ" subTitle="blog" />
+        <NavLinkItem
+          link={"/profile"}
+          title="プロフィール"
+          subTitle="profile"
+        />
+        <NavLinkItem
+          link={"/contact"}
+          title="お問い合わせ"
+          subTitle="contact"
+        />
       </nav>
     )
   }
