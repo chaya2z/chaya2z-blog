@@ -1,7 +1,6 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import CustomHead from "../components/head"
-import NavBar from "../components/header/nav-bar"
 import Footer from "../components/footer"
 import "./reset.css"
 import "./index.css"
@@ -14,12 +13,6 @@ export default ({ data }) => {
     <div>
       <CustomHead />
       <Header />
-      <div className="heroImgSection">
-        <h1 className="websiteTitle">海底タランテラ</h1>
-      </div>
-      <div className="navBarSection">
-        <NavBar />
-      </div>
       <div className="indexContentsContainer">
         <h2>このサイトについて</h2>
         <div className={"siteDescription"}>

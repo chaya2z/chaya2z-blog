@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import Image from "gatsby-image"
-import NavBar from "../components/header/nav-bar"
+import NavigationBar from "../components/header/navBar/NavigationBar"
 import Footer from "../components/footer"
 import "./list.css"
 import CustomHead from "../components/head"
@@ -30,7 +30,7 @@ export default ({ data }) => {
         <h1 className={"title"}>ブログ</h1>
       </div>
       <div className="navBarSection">
-        <NavBar />
+        <NavigationBar />
       </div>
       <div className="contentsContainer">
         {edges.map(edge => (

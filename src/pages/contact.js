@@ -1,5 +1,5 @@
 import React from "react"
-import NavBar from "../components/header/nav-bar"
+import NavigationBar from "../components/header/navBar/NavigationBar"
 import Footer from "../components/footer"
 import "./reset.css"
 import "./contact.css"
@@ -13,7 +13,7 @@ export default function Home() {
         <h1 className={"title"}>お問い合わせ</h1>
       </div>
       <div className="navBarSection">
-        <NavBar />
+        <NavigationBar />
       </div>
       <div className={"contactForm"}>
         <iframe

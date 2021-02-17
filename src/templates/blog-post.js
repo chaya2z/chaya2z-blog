@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Image from "gatsby-image"
-import NavBar from "../components/header/nav-bar"
+import NavigationBar from "../components/header/navBar/NavigationBar"
 import Footer from "../components/footer"
 import "../pages/demo-blog.css"
 
@@ -9,7 +9,7 @@ export default function BlogPost({ data }) {
   const post = data.markdownRemark
   return (
     <div>
-      <NavBar />
+      <NavigationBar />
       <article className="blogContainer">
         <div className={"eyeCatchImg"}>
           <Image fluid={post.frontmatter.image.childImageSharp.fluid} />
