@@ -1,16 +1,19 @@
 import React from "react"
 import { Link } from "gatsby"
+import { makeStyles } from "@material-ui/core"
 
-const styles: { [key: string]: React.CSSProperties } = {
+const useStyles = makeStyles({
   container: {
-    paddingLeft: "2rem",
-    paddingRight: "2rem",
-    paddingTop: "1rem",
-    paddingBottom: "1rem",
+    padding: "1rem 2rem",
     color: "black",
-    textDecoration: "none"
+    textDecoration: "none",
+    transition: "all 0.6s ease",
+    '&:hover': {
+      backgroundColor: "#008080",
+      color: "#FFFFDD"
+    }
   }
-}
+})
 
 interface Props {
   name: string
@@ -18,8 +21,9 @@ interface Props {
 }
 
 const NavigationBarItem: React.FC<Props> = ({ name, link }) => {
+  const classes = useStyles()
   return (
-    <Link to={link} style={styles.container}>
+    <Link to={link} className={classes.container}>
       <div>{name}</div>
     </Link>
   )
