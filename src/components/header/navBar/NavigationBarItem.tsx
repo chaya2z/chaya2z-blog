@@ -19,9 +19,9 @@ interface Props {
 
 const NavigationBarItem: React.FC<Props> = ({ name, link }) => {
   return (
-      <Link to={link} style={styles.container}>
-        <div>{name}</div>
-      </Link>
+    <Link to={link} style={styles.container}>
+      <div>{name}</div>
+    </Link>
   )
 }
 
