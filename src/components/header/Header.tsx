@@ -6,7 +6,8 @@ const style = {
   paddingTop: "2rem",
   paddingBottom: "2rem",
   paddingLeft: "2rem",
-  color: "white"
+  color: "white",
+  fontFamily: '"M PLUS 1p", sans-serif'
 }
 
 const Header: React.FC = () => {
