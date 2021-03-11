@@ -1,9 +1,8 @@
 import React from "react"
-import NavigationBar from "../components/header/navBar/NavigationBar"
 import "./reset.css"
 import "./profile.css"
-import CustomHead from "../components/head"
 import Footer from "../components/footer/Footer"
+import Header from "../components/header/Header"
 
 class ProfileImg extends React.Component {
   render() {
@@ -35,13 +34,7 @@ class ProfileIcon extends React.Component {
 export default function Home() {
   return (
     <div>
-      <CustomHead />
-      <div className="titleSection">
-        <h1 className={"title"}>プロフィール</h1>
-      </div>
-      <div className="navBarSection">
-        <NavigationBar />
-      </div>
+      <Header />
       <div className="profileSection">
         <ProfileImg />
         <ProfileIcon />

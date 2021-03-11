@@ -1,10 +1,9 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import Image from "gatsby-image"
-import NavigationBar from "../components/header/navBar/NavigationBar"
 import "./list.css"
-import CustomHead from "../components/head"
 import Footer from "../components/footer/Footer"
+import Header from "../components/header/Header"
 
 class TagTable extends React.Component {
   render() {
@@ -25,14 +24,8 @@ export default ({ data }) => {
   const edges = data.allMarkdownRemark.edges
   return (
     <div>
-      <CustomHead />
-      <div className="titleSection">
-        <h1 className={"title"}>ブログ</h1>
-      </div>
-      <div className="navBarSection">
-        <NavigationBar />
-      </div>
-      <div className="contentsContainer">
+      <Header />
+      <div className="contentsContainer mt-16">
         {edges.map(edge => (
           <div key={edge.node.date} className="articleCardContents">
             <Link to={edge.node.frontmatter.slug}>

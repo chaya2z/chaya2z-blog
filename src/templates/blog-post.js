@@ -1,15 +1,15 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Image from "gatsby-image"
-import NavigationBar from "../components/header/navBar/NavigationBar"
 import "../pages/demo-blog.css"
 import Footer from "../components/footer/Footer"
+import Header from "../components/header/Header"
 
 export default function BlogPost({ data }) {
   const post = data.markdownRemark
   return (
     <div>
-      <NavigationBar />
+      <Header />
       <article className="blogContainer">
         <div className={"eyeCatchImg"}>
           <Image fluid={post.frontmatter.image.childImageSharp.fluid} />
