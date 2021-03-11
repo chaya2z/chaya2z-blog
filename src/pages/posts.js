@@ -2,9 +2,9 @@ import React from "react"
 import { graphql, Link } from "gatsby"
 import Image from "gatsby-image"
 import NavigationBar from "../components/header/navBar/NavigationBar"
-import Footer from "../components/footer"
 import "./list.css"
 import CustomHead from "../components/head"
+import Footer from "../components/footer/Footer"
 
 class TagTable extends React.Component {
   render() {

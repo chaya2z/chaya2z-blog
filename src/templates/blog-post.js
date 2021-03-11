@@ -2,8 +2,8 @@ import React from "react"
 import { graphql } from "gatsby"
 import Image from "gatsby-image"
 import NavigationBar from "../components/header/navBar/NavigationBar"
-import Footer from "../components/footer"
 import "../pages/demo-blog.css"
+import Footer from "../components/footer/Footer"
 
 export default function BlogPost({ data }) {
   const post = data.markdownRemark

@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import CustomHead from "../components/head"
-import Footer from "../components/footer"
+import Footer from "../components/footer/Footer"
 import "./reset.css"
 import "./index.css"
 import Image from "gatsby-image/index"

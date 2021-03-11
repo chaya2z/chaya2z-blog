@@ -1,9 +1,9 @@
 import React from "react"
 import NavigationBar from "../components/header/navBar/NavigationBar"
-import Footer from "../components/footer"
 import "./reset.css"
 import "./policy.css"
 import CustomHead from "../components/head"
+import Footer from "../components/footer/Footer"
 
 export default function Home() {
   return (
