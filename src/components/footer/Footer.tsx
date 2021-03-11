@@ -5,10 +5,10 @@ import FooterLinkInbound from "./FooterLinkInbound"
 const Footer: React.FC = () => {
   return (
     <footer>
-      <div>
+      <div className="text-center text-gray-50 py-4" style={{backgroundColor: "#222222"}}>
         <FooterLinkOutbound/>
         <FooterLinkInbound/>
-        <div>&copy; 海底タランテラ 2020</div>
+        <div className="py-4 mt-6">&copy; 海底タランテラ 2020</div>
       </div>
     </footer>
   )
