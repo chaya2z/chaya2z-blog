@@ -7,10 +7,13 @@ const useStyles = makeStyles({
     padding: "1rem 2rem",
     color: "black",
     textDecoration: "none",
+    borderBottom: "2px solid #008080",
+    marginRight: "2px",
     transition: "all 0.6s ease",
     '&:hover': {
       backgroundColor: "#008080",
-      color: "#FFFFDD"
+      color: "#FFFFDD",
+      borderBottom: "2px solid dimgray",
     }
   }
 })
