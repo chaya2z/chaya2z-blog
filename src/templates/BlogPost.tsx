@@ -12,16 +12,16 @@ export default function BlogPost({ data }) {
     <div>
       <Header/>
       <article>
-        <Paper className="blogContainer">
-          <div className={"eyeCatchImg"}>
+        <Paper className="max-w-screen-lg mt-16 mx-auto mb-8">
+          <div className="p-5">
             <Image fluid={post.frontmatter.image.childImageSharp.fluid}/>
           </div>
-          <div className={"textContents"}>
-            <div className={"dataContainer"}>
-              <div className={"ArticleDate"}>{post.frontmatter.date}</div>
+          <div className="py-1 px-2.5">
+            <div className="flex">
+              <div>{post.frontmatter.date}</div>
             </div>
             <div>
-              <h1 className={"articleTitle"}>{post.frontmatter.title}</h1>
+              <h1 className="my-8 pb-4 text-4xl border-b-4 border-gray-500">{post.frontmatter.title}</h1>
               <section>
                 <div
                   dangerouslySetInnerHTML={{ __html: post.html }}
