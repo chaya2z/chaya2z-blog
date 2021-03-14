@@ -5,8 +5,13 @@ import "../pages/demo-blog.css"
 import Footer from "../components/footer/Footer"
 import Header from "../components/header/Header"
 import { Paper } from "@material-ui/core"
+import type { PostDataQuery } from  "../__generated__/gatsby-types"
 
-export default function BlogPost({ data }) {
+interface PostData {
+  data: PostDataQuery
+}
+
+export default function BlogPost({ data }: PostData) {
   const post = data.markdownRemark
   return (
     <div>
@@ -37,8 +42,8 @@ export default function BlogPost({ data }) {
   )
 }
 
-export const query = graphql`
-    query($slug: String!) {
+export const postQuery = graphql`
+    query PostData($slug: String!) {
         markdownRemark(frontmatter: { slug: { eq: $slug } }) {
             html
             rawMarkdownBody
