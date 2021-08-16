@@ -61,7 +61,7 @@ pfctl -d
 
 
 ```
-pfctl -d
+pfctl -e
 ```
 
 `-e` は enable のことで，ファイアウォールを有効にする．
