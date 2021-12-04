@@ -6,6 +6,11 @@ tags: ["ネットワーク"]
 image: ./eyecatch.png
 ---
 
+この記事は [ITRC Advent Calendar 2021](https://adventar.org/calendars/6368) の4日目の記事です．
+
+前日は [@saba](https://twitter.com/saba383810) の [【Unity】重い処理はメインスレッド以外の別スレッドで動かそう！！【非同期処理】](https://sabanogames.com/tips/305/) でした．
+
+
 ## 手順
 
 1.ConoHa の VPS を契約しサーバを建てる
