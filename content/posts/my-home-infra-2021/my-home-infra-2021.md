@@ -8,6 +8,8 @@ image: ./eyecatch.png
 
 この記事は [ITRC Advent Calendar 2021](https://adventar.org/calendars/6368) の1日目の記事です．
 
+次は [@Asterisk](https://twitter.com/AsteriskSV) の [Flask触ってみた（初級）](https://note.com/asterisk_sv/n/n95d9a1bf435d) です．
+
 私の自宅ネットワークインフラの紹介をします．いままで大したことをしてなかったので外部に公開するのは憚られていたのですが，少しは以前よりマシになったと思いたいです．
 
 ![サーバの写真](../../assets/2021120101/server-photo.jpg)
