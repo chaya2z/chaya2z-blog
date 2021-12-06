@@ -10,6 +10,7 @@ image: ./eyecatch.png
 
 前日は [@saba](https://twitter.com/saba383810) の [【Unity】重い処理はメインスレッド以外の別スレッドで動かそう！！【非同期処理】](https://sabanogames.com/tips/305/) でした．
 
+次は [@waka](https://twitter.com/gamoutatsumi) の [最近のVim事情](https://zenn.dev/gamoutatsumi/articles/26745357cffa44) です．
 
 ## 手順
 
