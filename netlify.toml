@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://chayanika.netlify.app//"
+  to = "https://blog.chaya2z.com"
+  status = 301
+  force = true
