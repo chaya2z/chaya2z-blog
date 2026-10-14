@@ -1,0 +1,31 @@
+# Netlify legacy blog -> blog.chaya2z.com
+# This file must be included in the Netlify publish directory.
+# 301! forces redirects even when the old HTML pages still exist.
+
+# Individual articles (old /blog/ paths -> new /ja/posts/ paths)
+/blog/2021/12/27/post01/               https://blog.chaya2z.com/ja/posts/tech-club-2021/                   301!
+/blog/2021/12/23/post01/               https://blog.chaya2z.com/ja/posts/vlan-notes/                       301!
+/blog/2021/12/14/post01/               https://blog.chaya2z.com/ja/posts/jetbrains-toolbox-cli-launch/     301!
+/blog/2021/12/06/post01/               https://blog.chaya2z.com/ja/posts/my-first-vyos-contribution/       301!
+/blog/2021/12/04/post01/               https://blog.chaya2z.com/ja/posts/vyos-on-conoha-vps/               301!
+/blog/2021/12/01/post01/               https://blog.chaya2z.com/ja/posts/homelab-2021/                     301!
+/blog/2021/08/17/post01/               https://blog.chaya2z.com/ja/posts/opnsense-firewall-notes/          301!
+/blog/DockerContainers-packet-part-1/  https://blog.chaya2z.com/ja/posts/docker-container-packet-capture/  301!
+/blog/dockercontainers-packet-part-1/  https://blog.chaya2z.com/ja/posts/docker-container-packet-capture/  301!
+/blog/eBPF-beginners/                  https://blog.chaya2z.com/ja/posts/trying-ebpf-syscall-monitoring/   301!
+/blog/ebpf-beginners/                  https://blog.chaya2z.com/ja/posts/trying-ebpf-syscall-monitoring/   301!
+/blog/device-manager/                  https://blog.chaya2z.com/ja/posts/tkinter-brightness-app/           301!
+/blog/blog-making/                     https://blog.chaya2z.com/ja/posts/building-blog-with-gatsby/        301!
+/blog/dataAlgo2/                       https://blog.chaya2z.com/ja/posts/tower-of-hanoi-and-recursion/     301!
+/blog/dataalgo2/                       https://blog.chaya2z.com/ja/posts/tower-of-hanoi-and-recursion/     301!
+/blog/z80-akiba/                       https://blog.chaya2z.com/ja/posts/z80-parts-in-akihabara/           301!
+
+# The HackMD article (/blog/hackmdFeature/) is not on the new blog,
+# so there is deliberately no permanent redirect for it.
+
+# Index pages and home
+/posts/                                https://blog.chaya2z.com/posts/                                     301!
+/blog/                                 https://blog.chaya2z.com/posts/                                     301!
+/                                      https://blog.chaya2z.com/                                           301!
+
+# No catch-all: unknown URLs should not be permanently redirected to unrelated pages.
