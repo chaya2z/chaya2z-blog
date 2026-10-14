@@ -1,5 +1,14 @@
 # chaya2z-blog README
 
+> [!IMPORTANT]
+> **This repository has moved and is no longer maintained.**
+>
+> - Blog: <https://blog.chaya2z.com/>
+> - Repository: [chaya2z/blog](https://github.com/chaya2z/blog)
+>
+> The old site (`chayanika.netlify.app`) now redirects to the new blog.
+> This repository is kept as an archive and will not receive further updates.
+
 [![issues](https://img.shields.io/github/issues/chaya2z/chaya2z-blog)](https://github.com/chaya2z/chaya2z-blog/issues)
 [![pull request](https://img.shields.io/github/issues-pr/chaya2z/chaya2z-blog)](https://github.com/chaya2z/chaya2z-blog/pulls)
 [![License](https://img.shields.io/github/license/chaya2z/chaya2z-blog)](LICENSE)
@@ -42,6 +51,15 @@ This software is licensed under the MIT License.
 ---
 
 ## このリポジトリについて
+
+> [!IMPORTANT]
+> **このリポジトリは移行済みのため，今後更新されません．**
+>
+> - ブログ: <https://blog.chaya2z.com/>
+> - リポジトリ: [chaya2z/blog](https://github.com/chaya2z/blog)
+>
+> 旧サイト（`chayanika.netlify.app`）は新しいブログへリダイレクトされます．
+> このリポジトリはアーカイブとして残しています．
 
 このリポジトリは，私が Netlify を利用し公開している [ブログ](https://chayanika.netlify.app/) のソースコードです．
 
